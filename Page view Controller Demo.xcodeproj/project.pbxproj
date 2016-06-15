@@ -9,25 +9,38 @@
 /* Begin PBXBuildFile section */
 		F24ECB731CFC7909008E8F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB721CFC7909008E8F67 /* main.m */; };
 		F24ECB761CFC790A008E8F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB751CFC790A008E8F67 /* AppDelegate.m */; };
-		F24ECB791CFC790A008E8F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB781CFC790A008E8F67 /* ViewController.m */; };
 		F24ECB7C1CFC790A008E8F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24ECB7A1CFC790A008E8F67 /* Main.storyboard */; };
 		F24ECB7F1CFC790A008E8F67 /* Page_view_and_Sliding_menu_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB7D1CFC790A008E8F67 /* Page_view_and_Sliding_menu_Demo.xcdatamodeld */; };
 		F24ECB811CFC790A008E8F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24ECB801CFC790A008E8F67 /* Assets.xcassets */; };
 		F24ECB841CFC790A008E8F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24ECB821CFC790A008E8F67 /* LaunchScreen.storyboard */; };
+		F24ECB8D1CFC7A83008E8F67 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24ECB8C1CFC7A83008E8F67 /* PageContentViewController.m */; };
+		F2A8E65F1CFD6C7A00979321 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A8E65E1CFD6C7A00979321 /* PageViewController.m */; };
+		F2A8E6621CFD6DF500979321 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8E6611CFD6DF500979321 /* page1.png */; };
+		F2A8E6661CFD6E2100979321 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8E6631CFD6E2100979321 /* page2.png */; };
+		F2A8E6671CFD6E2100979321 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8E6641CFD6E2100979321 /* page3.png */; };
+		F2A8E6681CFD6E2100979321 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8E6651CFD6E2100979321 /* page4.png */; };
+		F2A8E66A1CFD6EE300979321 /* splash_new.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8E6691CFD6EE300979321 /* splash_new.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F24ECB6E1CFC7909008E8F67 /* Page view and Sliding menu Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Page view and Sliding menu Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24ECB6E1CFC7909008E8F67 /* Page view Controller Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Page view Controller Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24ECB721CFC7909008E8F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F24ECB741CFC7909008E8F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F24ECB751CFC790A008E8F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F24ECB771CFC790A008E8F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F24ECB781CFC790A008E8F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F24ECB7B1CFC790A008E8F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F24ECB7E1CFC790A008E8F67 /* Page_view_and_Sliding_menu_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Page_view_and_Sliding_menu_Demo.xcdatamodel; sourceTree = "<group>"; };
 		F24ECB801CFC790A008E8F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F24ECB831CFC790A008E8F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F24ECB851CFC790A008E8F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24ECB8B1CFC7A83008E8F67 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		F24ECB8C1CFC7A83008E8F67 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		F2A8E65D1CFD6C7A00979321 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		F2A8E65E1CFD6C7A00979321 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		F2A8E6611CFD6DF500979321 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		F2A8E6631CFD6E2100979321 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		F2A8E6641CFD6E2100979321 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		F2A8E6651CFD6E2100979321 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		F2A8E6691CFD6EE300979321 /* splash_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20651BA1CFDB2F9000726E7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		F24ECB651CFC7909008E8F67 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +72,7 @@
 		F24ECB6F1CFC7909008E8F67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F24ECB6E1CFC7909008E8F67 /* Page view and Sliding menu Demo.app */,
+				F24ECB6E1CFC7909008E8F67 /* Page view Controller Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,15 +80,19 @@
 		F24ECB701CFC7909008E8F67 /* Page view and Sliding menu Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F2A8E6601CFD6DE000979321 /* Images */,
 				F24ECB741CFC7909008E8F67 /* AppDelegate.h */,
 				F24ECB751CFC790A008E8F67 /* AppDelegate.m */,
-				F24ECB771CFC790A008E8F67 /* ViewController.h */,
-				F24ECB781CFC790A008E8F67 /* ViewController.m */,
+				F2A8E65D1CFD6C7A00979321 /* PageViewController.h */,
+				F2A8E65E1CFD6C7A00979321 /* PageViewController.m */,
+				F24ECB8B1CFC7A83008E8F67 /* PageContentViewController.h */,
+				F24ECB8C1CFC7A83008E8F67 /* PageContentViewController.m */,
 				F24ECB7A1CFC790A008E8F67 /* Main.storyboard */,
 				F24ECB801CFC790A008E8F67 /* Assets.xcassets */,
 				F24ECB821CFC790A008E8F67 /* LaunchScreen.storyboard */,
 				F24ECB851CFC790A008E8F67 /* Info.plist */,
 				F24ECB7D1CFC790A008E8F67 /* Page_view_and_Sliding_menu_Demo.xcdatamodeld */,
+				F20651BA1CFDB2F9000726E7 /* Library */,
 				F24ECB711CFC7909008E8F67 /* Supporting Files */,
 			);
 			path = "Page view and Sliding menu Demo";
@@ -82,12 +106,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2A8E6601CFD6DE000979321 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2A8E6611CFD6DF500979321 /* page1.png */,
+				F2A8E6631CFD6E2100979321 /* page2.png */,
+				F2A8E6641CFD6E2100979321 /* page3.png */,
+				F2A8E6651CFD6E2100979321 /* page4.png */,
+				F2A8E6691CFD6EE300979321 /* splash_new.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F24ECB6D1CFC7909008E8F67 /* Page view and Sliding menu Demo */ = {
+		F24ECB6D1CFC7909008E8F67 /* Page view Controller Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F24ECB881CFC790A008E8F67 /* Build configuration list for PBXNativeTarget "Page view and Sliding menu Demo" */;
+			buildConfigurationList = F24ECB881CFC790A008E8F67 /* Build configuration list for PBXNativeTarget "Page view Controller Demo" */;
 			buildPhases = (
 				F24ECB6A1CFC7909008E8F67 /* Sources */,
 				F24ECB6B1CFC7909008E8F67 /* Frameworks */,
@@ -97,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = "Page view and Sliding menu Demo";
+			name = "Page view Controller Demo";
 			productName = "Page view and Sliding menu Demo";
-			productReference = F24ECB6E1CFC7909008E8F67 /* Page view and Sliding menu Demo.app */;
+			productReference = F24ECB6E1CFC7909008E8F67 /* Page view Controller Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F24ECB691CFC7909008E8F67 /* Build configuration list for PBXProject "Page view and Sliding menu Demo" */;
+			buildConfigurationList = F24ECB691CFC7909008E8F67 /* Build configuration list for PBXProject "Page view Controller Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F24ECB6D1CFC7909008E8F67 /* Page view and Sliding menu Demo */,
+				F24ECB6D1CFC7909008E8F67 /* Page view Controller Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +177,12 @@
 			files = (
 				F24ECB841CFC790A008E8F67 /* LaunchScreen.storyboard in Resources */,
 				F24ECB811CFC790A008E8F67 /* Assets.xcassets in Resources */,
+				F2A8E6671CFD6E2100979321 /* page3.png in Resources */,
+				F2A8E6681CFD6E2100979321 /* page4.png in Resources */,
+				F2A8E6621CFD6DF500979321 /* page1.png in Resources */,
+				F2A8E66A1CFD6EE300979321 /* splash_new.png in Resources */,
 				F24ECB7C1CFC790A008E8F67 /* Main.storyboard in Resources */,
+				F2A8E6661CFD6E2100979321 /* page2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +193,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24ECB791CFC790A008E8F67 /* ViewController.m in Sources */,
 				F24ECB761CFC790A008E8F67 /* AppDelegate.m in Sources */,
+				F24ECB8D1CFC7A83008E8F67 /* PageContentViewController.m in Sources */,
 				F24ECB7F1CFC790A008E8F67 /* Page_view_and_Sliding_menu_Demo.xcdatamodeld in Sources */,
+				F2A8E65F1CFD6C7A00979321 /* PageViewController.m in Sources */,
 				F24ECB731CFC7909008E8F67 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +312,7 @@
 				INFOPLIST_FILE = "Page view and Sliding menu Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.wheelstreet.Page-view-and-Sliding-menu-Demo.Page-view-and-Sliding-menu-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Page view Controller Demo";
 			};
 			name = Debug;
 		};
@@ -281,14 +323,14 @@
 				INFOPLIST_FILE = "Page view and Sliding menu Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.wheelstreet.Page-view-and-Sliding-menu-Demo.Page-view-and-Sliding-menu-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Page view Controller Demo";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F24ECB691CFC7909008E8F67 /* Build configuration list for PBXProject "Page view and Sliding menu Demo" */ = {
+		F24ECB691CFC7909008E8F67 /* Build configuration list for PBXProject "Page view Controller Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F24ECB861CFC790A008E8F67 /* Debug */,
@@ -297,13 +339,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F24ECB881CFC790A008E8F67 /* Build configuration list for PBXNativeTarget "Page view and Sliding menu Demo" */ = {
+		F24ECB881CFC790A008E8F67 /* Build configuration list for PBXNativeTarget "Page view Controller Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F24ECB891CFC790A008E8F67 /* Debug */,
 				F24ECB8A1CFC790A008E8F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
